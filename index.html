@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP PHP</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form method="post" action="index.php">
+        <p>Entrez votre prénom : </p>
+        <input type="text" name="prenom">
+        <select name="pays">
+            <option name="pays" value="France">France</option>
+            <option name="pays" value="Italie">Italie</option>
+            <option name="pays" value="Allemagne">Allemagne</option>
+            <option name="pays" value="Angleterre">United Kingdom</option>
+        </select>
+        <div>
+            Masculin<input type="radio" name="genre" value="Masculin">
+            Feminin<input type="radio" name="genre" value="Feminin">
+        </div>
+        <p>Voulez vous inscrire à la Newsletter ?</p>
+        <div>
+            <input type="radio" name="news" value="Oui">oui
+            <input type="radio" name="news" value="Non">non
+        </div>
+        <input type="submit" value="valider">
+    </form>
+</body>
+</html>

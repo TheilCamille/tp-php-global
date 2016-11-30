@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('font.jpg');
+    background-size: auto;
+}
+
+form {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+form select, div {
+    margin: 25px;
+}
+
